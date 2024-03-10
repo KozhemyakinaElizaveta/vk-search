@@ -1,6 +1,6 @@
 import "./style.css";
 
-export function UserCard(props) {
+export function UserCard(props: any) {
   return (
     <div className="userCard">
       <img className="userPic" src={props.image} />
